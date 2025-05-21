@@ -8,8 +8,9 @@ on:
 jobs:
   build:
     runs-on: self-hosted
+    container:
+      image: ubuntu:latest
 
     steps:
-
     - name: Create Folder
-      run: mkdir ~/test-kanik
+      run: mkdir actions-testing
