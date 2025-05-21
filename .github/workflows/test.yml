@@ -13,4 +13,6 @@ jobs:
 
     steps:
     - name: Create Folder
-      run: mkdir actions-testing
+      run: |
+        sleep 60
+        mkdir actions-testing
